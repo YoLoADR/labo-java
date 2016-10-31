@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World !!");
+		System.out.println("Hello Yohann !!");
+	}
+	
+	public static void test(String[] args) {
+		System.out.println("Hello Man !!");
+	}
+
+}

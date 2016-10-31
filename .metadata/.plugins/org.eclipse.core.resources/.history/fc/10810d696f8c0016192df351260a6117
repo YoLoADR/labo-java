@@ -1,0 +1,17 @@
+// Tel que node un import une class/module
+import java.util.Scanner;
+
+public class User {
+	//System.in prendre une valeur au niveau du clavier
+	public static void main(String[] args) {
+		Scanner clavier = new Scanner(System.in);
+		
+		String n = "Yohann Youi !";
+		// Affiche un prompt
+		System.out.print("Entrer un nombre: ");
+		// On recueille les infos via clavier.nextLine();
+		n = clavier.nextLine();
+		System.out.println("Le texte :\'"+n+" ect..." );
+	}
+
+}
